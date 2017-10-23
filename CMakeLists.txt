@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(SOURCE_FILES main.cpp
         SIGINT_Handler.h
         SIGINT_Handler_Partidos.h
+        SIGUSR2_Handler.h
         EventHandler.h
         SignalHandler.cpp
         SignalHandler.h

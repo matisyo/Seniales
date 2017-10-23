@@ -15,5 +15,6 @@ CMakeFiles/JustSignals.dir/main.cpp.o
  /home/matiascarballo/CLionProjects/JustSignals/EventHandler.h
  /home/matiascarballo/CLionProjects/JustSignals/Partido.h
  /home/matiascarballo/CLionProjects/JustSignals/SIGINT_Handler.h
+ /home/matiascarballo/CLionProjects/JustSignals/SIGUSR2_Handler.h
  /home/matiascarballo/CLionProjects/JustSignals/SignalHandler.h
  /home/matiascarballo/CLionProjects/JustSignals/main.cpp

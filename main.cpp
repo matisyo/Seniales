@@ -5,6 +5,7 @@
 #include "SIGINT_Handler.h"
 #include "SignalHandler.h"
 #include "Partido.h"
+#include "SIGUSR2_Handler.h"
 
 #define f(A,B) for(int A = 0 ; A < B ; A++)
 
@@ -44,8 +45,12 @@ int main () {
         sigint_handler.vec_id = vec;
         sigint_handler.altos = altos;
         sigint_handler.n=n;
+
+        SIGUSR2_Handler sigusr2_handler;
+        sigusr2_handler.sig = &sigint_handler.gracefulQuit;
         // se registra el event handler declarado antes
         SignalHandler :: getInstance()->registrarHandler ( SIGINT,&sigint_handler );
+        SignalHandler :: getInstance()->registrarHandler ( SIGUSR2,&sigusr2_handler );
 
         cout << "Soy el proceso " << getpid() << endl;
         // mientras no se reciba la senial SIGINT, el proceso realiza su trabajo

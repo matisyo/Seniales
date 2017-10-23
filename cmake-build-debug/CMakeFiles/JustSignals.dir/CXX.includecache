@@ -40,6 +40,16 @@ assert.h
 EventHandler.h
 /home/matiascarballo/CLionProjects/JustSignals/EventHandler.h
 
+/home/matiascarballo/CLionProjects/JustSignals/SIGUSR2_Handler.h
+signal.h
+-
+assert.h
+-
+iostream
+-
+EventHandler.h
+/home/matiascarballo/CLionProjects/JustSignals/EventHandler.h
+
 /home/matiascarballo/CLionProjects/JustSignals/SignalHandler.cpp
 signal.h
 -
@@ -69,4 +79,6 @@ SignalHandler.h
 /home/matiascarballo/CLionProjects/JustSignals/SignalHandler.h
 Partido.h
 /home/matiascarballo/CLionProjects/JustSignals/Partido.h
+SIGUSR2_Handler.h
+/home/matiascarballo/CLionProjects/JustSignals/SIGUSR2_Handler.h
 

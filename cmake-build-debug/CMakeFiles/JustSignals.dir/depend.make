@@ -14,6 +14,7 @@ CMakeFiles/JustSignals.dir/SignalHandler.cpp.o: ../SignalHandler.h
 CMakeFiles/JustSignals.dir/main.cpp.o: ../EventHandler.h
 CMakeFiles/JustSignals.dir/main.cpp.o: ../Partido.h
 CMakeFiles/JustSignals.dir/main.cpp.o: ../SIGINT_Handler.h
+CMakeFiles/JustSignals.dir/main.cpp.o: ../SIGUSR2_Handler.h
 CMakeFiles/JustSignals.dir/main.cpp.o: ../SignalHandler.h
 CMakeFiles/JustSignals.dir/main.cpp.o: ../main.cpp
 

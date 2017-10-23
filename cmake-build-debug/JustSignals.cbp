@@ -99,6 +99,9 @@
 		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SIGINT_Handler_Partidos.h">
 			<Option target="JustSignals"/>
 		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SIGUSR2_Handler.h">
+			<Option target="JustSignals"/>
+		</Unit>
 		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SignalHandler.cpp">
 			<Option target="JustSignals"/>
 		</Unit>

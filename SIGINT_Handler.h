@@ -9,12 +9,13 @@
 class SIGINT_Handler : public EventHandler {
 
 private:
-    sig_atomic_t gracefulQuit;
 
 public:
     pid_t *vec_id;
     int *altos;
     int n;
+    sig_atomic_t gracefulQuit;
+
     SIGINT_Handler () : gracefulQuit(0) {
     }
 

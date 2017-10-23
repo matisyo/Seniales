@@ -22,7 +22,7 @@ public:
     virtual int handleSignal ( int signum ) {
 
         assert ( signum == SIGINT );
-        this->gracefulQuit = this->gracefulQuit+1;
+        this->gracefulQuit = 1;
         return 0;
     }
 
