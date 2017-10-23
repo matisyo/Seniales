@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JustSignals"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JustSignals">
+				<Option output="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/JustSignals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 JustSignals"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="JustSignals/fast">
+				<Option output="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/JustSignals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 JustSignals/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/matiascarballo/CLionProjects/JustSignals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/EventHandler.h">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/Partido.cpp">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/Partido.h">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SIGINT_Handler.h">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SIGINT_Handler_Partidos.h">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SignalHandler.cpp">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/SignalHandler.h">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/main.cpp">
+			<Option target="JustSignals"/>
+		</Unit>
+		<Unit filename="/home/matiascarballo/CLionProjects/JustSignals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
